@@ -1,0 +1,28 @@
+<!--pages/meta-learning/pages/new1/new1.wxml-->
+<!--<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />-->
+
+<view class="container">
+  <template is="head" data="{{title: '建立对学习内容的基本认知'}}"/>
+
+  <view class="page-body">
+    <view class="page-section page-section-spacing">
+      <view class="text-box">
+        <text>
+          比如学习编程。
+          编程就是自动地解决问题：
+          观察一件事情输入了什么，导致输出了什么
+          思考事情可以重复被做的方法
+          不要期待错误的方法能够得到正确的结果
+        </text>
+      </view>
+    </view>
+  </view>
+
+  <template is="foot" />
+</view>
+
+ <!--引入模板-->
+<!--<import src="../../../../common/wxParse/wxParse.wxml"/>-->
+<!--这里data中article为bindName-->
+<!--<template is="wxParse" data="{{wxParseData:article.nodes}}"/>-->
