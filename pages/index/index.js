@@ -1,8 +1,8 @@
 const AV = require('../../utils/av-weapp-min');
-var WxParse = require('../../common/wxParse/wxParse.js');
-var request = require('../../common/request.js');
 Page({
   data: {
+    inputShowed: false,
+    inputVal: "",
     imgUrls: [
       'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
@@ -10,10 +10,53 @@ Page({
     ],
     indicatorDots: true,
     autoplay: true,
-    interval: 3000,
+    interval: 5000,
     duration: 1000,
     demo: 1,
-    article: null
+    item: {
+      headimg: "../../image/kind/basketball.png",
+      dictum: "这里是可能可以解忧的“杂货铺”，\n我是铺子老板，\n一个在进步的编程运动员——宋鹏"
+    },
+    article: null,
+    list: [
+      {
+        id: 'Scientificmethod',
+        name: '方法论',
+        open: false,
+        pages: ['科学方法论', '知识学习方法论', '写作技能方法论'],
+        contents: ['科学方法论', '知识学习方法论', '写作技能方法论']
+      }, {
+        id: 'writing',
+        name: '写作',
+        open: false,
+        pages: ['科学方法论', '知识学习方法论', '写作技能方法论'],
+        contents: ['科学方法论', '知识学习方法论', '写作技能方法论']
+      }, {
+        id: 'coffee',
+        name: '咖啡',
+        open: false,
+        pages: ['科学方法论', '知识学习方法论', '写作技能方法论'],
+        contents: ['科学方法论', '知识学习方法论', '写作技能方法论']
+      }, {
+        id: 'guitar',
+        name: '吉他',
+        open: false,
+        pages: ['科学方法论', '知识学习方法论', '写作技能方法论'],
+        contents: ['科学方法论', '知识学习方法论', '写作技能方法论']
+      }, {
+        id: 'coding',
+        name: '编程',
+        open: false,
+        pages: ['在进步的编程运动员', '在进步的编程运动员', '在进步的编程运动员', '在进步的编程运动员'],
+        contents: ['3.1-将学习游戏化', '3.2-模仿游戏的设计方法设计自己的学习模式', '3.3-不要害怕上瘾', '3.4-奖励自己']
+      }, {
+        id: 'keepingfit',
+        name: '徒手健身',
+        open: false,
+        pages: ['科学方法论', '知识学习方法论', '写作技能方法论'],
+        contents: ['科学方法论', '知识学习方法论', '写作技能方法论']
+      }
+    ]
   },
   onLoad: function (options) {
     // 页面初始化 options为页面跳转所带来的参数
@@ -40,6 +83,40 @@ Page({
   },
   onUnload: function () {
     // 页面关闭
+  },
+  showInput: function () {
+    this.setData({
+      inputShowed: true
+    });
+  },
+  hideInput: function () {
+    this.setData({
+      inputVal: "",
+      inputShowed: false
+    });
+  },
+  clearInput: function () {
+    this.setData({
+      inputVal: ""
+    });
+  },
+  inputTyping: function (e) {
+    this.setData({
+      inputVal: e.detail.value
+    });
+  },
+  kindToggle: function (e) {
+    var id = e.currentTarget.id, list = this.data.list;
+    for (var i = 0, len = list.length; i < len; ++i) {
+      if (list[i].id == id) {
+        list[i].open = !list[i].open
+      } else {
+        list[i].open = false
+      }
+    }
+    this.setData({
+      list: list
+    });
   }
 })
 

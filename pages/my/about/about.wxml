@@ -1,19 +1,17 @@
-<import src="../common/head.wxml" />
-
 <view class="page">
-  <template is="head" data="{{...item}}" />
   <view class="page__bd">
     <view class="weui-panel weui-panel_access">
       <view class="weui-panel">
+        <view class="weui-panel__hd">宋鹏</view>
         <view class="weui-panel__bd">
           <view class="weui-media-box weui-media-box_small-appmsg">
             <view class="weui-cells weui-cells_in-small-appmsg">
-              <navigator url="about/about" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+              <navigator url="../index/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
                 <view class="weui-cell__hd">
                   <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
                 </view>
                 <view class="weui-cell__bd weui-cell_primary">
-                  <view>关于</view>
+                  <view>开源-GitHub</view>
                 </view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
               </navigator>
@@ -22,7 +20,7 @@
                   <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
                 </view>
                 <view class="weui-cell__bd weui-cell_primary">
-                  <view>发现 BUG</view>
+                  <view>当前版本</view>
                 </view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
               </navigator>
@@ -31,7 +29,7 @@
                   <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
                 </view>
                 <view class="weui-cell__bd weui-cell_primary">
-                  <view>功能反馈</view>
+                  <view>隐私声明</view>
                 </view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
               </navigator>
@@ -44,16 +42,45 @@
                 </view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
               </navigator>
-              <navigator url="../index/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-                <view class="weui-cell__hd">
-                  <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
-                </view>
-                <view class="weui-cell__bd weui-cell_primary">
-                  <view>文字标题</view>
-                </view>
-                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-              </navigator>
             </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-panel">
+      <view class="weui-panel__hd">贡献者</view>
+      <view class="weui-panel__bd">
+        <view class="weui-media-box weui-media-box_small-appmsg">
+          <view class="weui-cells weui-cells_in-small-appmsg">
+            <navigator url="../index/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+              <view class="weui-cell__hd">
+                <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
+              </view>
+              <view class="weui-cell__bd weui-cell_primary">
+                <view>宋鹏</view>
+              </view>
+              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+              <view class="weui-cell__hd">
+                <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
+              </view>
+              <view class="weui-cell__bd weui-cell_primary">
+                <view>张震</view>
+              </view>
+              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+            <navigator url="../index/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+              <view class="weui-cell__hd">
+                <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
+              </view>
+              <view class="weui-cell__bd weui-cell_primary">
+                <view>张卫健</view>
+              </view>
+              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
           </view>
         </view>
       </view>

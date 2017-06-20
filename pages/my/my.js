@@ -1,27 +1,17 @@
-var sliderWidth = 96; // 需要设置slider的宽度，用于计算中间位置
+var base64 = require("../../image/base64");
 
 Page({
   data: {
-    tabs: ["我的订单", "我的收藏", "地址管理"],
-    activeIndex: 1,
-    sliderOffset: 0,
-    sliderLeft: 0
+    item: {
+      headimg: "../../../image/kind/fisher.png",
+      dictum: "Good artists copy, great artists steal.\n拙匠抄, 巧匠盗!\n乔布斯说过，毕加索也说过"
+    }
   },
   onLoad: function () {
-    var that = this;
-    wx.getSystemInfo({
-      success: function (res) {
-        that.setData({
-          sliderLeft: (res.windowWidth / that.data.tabs.length - sliderWidth) / 2,
-          sliderOffset: res.windowWidth / that.data.tabs.length * that.data.activeIndex
-        });
-      }
-    });
-  },
-  tabClick: function (e) {
+    // panel 图文列表图标
     this.setData({
-      sliderOffset: e.currentTarget.offsetLeft,
-      activeIndex: e.currentTarget.id
+      icon20: base64.icon20,
+      icon60: base64.icon60
     });
   }
 });

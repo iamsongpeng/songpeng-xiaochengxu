@@ -1,45 +1,49 @@
 {
-  "pages":[
-    "pages/index/index",
+  "pages": [
     "pages/my/my",
-    "pages/meta-learning/meta-learning",
+    "pages/index/index",
+    "pages/meta/meta",
     "pages/game/game",
-    "pages/meta-learning/pages/new1/new1"
+    "pages/meta/pages/new/new",
+    "pages/game/knowledge/knowledge",
+    "pages/my/about/about"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Song",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "宋鹏",
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "backgroundColor": "#f5f5f5",
+    "backgroundColor": "#ffffff",
     "borderStyle": "white",
     "color": "#9d9d9d",
     "selectedColor": "#202020",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "image/index.png",
-      "selectedIconPath": "image/indexHL.png"
-    },
-    {
-        "pagePath": "pages/meta-learning/meta-learning",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/index.png",
+        "selectedIconPath": "image/indexHL.png"
+      },
+      {
+        "pagePath": "pages/meta/meta",
         "text": "元学习",
         "iconPath": "image/metalearning.png",
         "selectedIconPath": "image/metalearningHL.png"
-    },
-    {
-      "pagePath": "pages/game/game",
-      "text": "游戏",
-      "iconPath": "image/game.png",
-      "selectedIconPath": "image/gameHL.png"
-    },
-    {
-      "pagePath": "pages/my/my",
-      "text": "我的",
-      "iconPath": "image/my.png",
-      "selectedIconPath": "image/myHL.png"
-    }]
+      },
+      {
+        "pagePath": "pages/game/game",
+        "text": "游戏",
+        "iconPath": "image/game.png",
+        "selectedIconPath": "image/gameHL.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "image/my.png",
+        "selectedIconPath": "image/myHL.png"
+      }
+    ]
   }
 }
