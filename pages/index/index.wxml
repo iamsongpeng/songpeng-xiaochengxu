@@ -41,6 +41,7 @@
       </navigator>
     </view>
   </view>
+  <!-- 轮播图 -->
   <view>
     <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
       <block wx:for="{{imgUrls}}">
@@ -50,7 +51,9 @@
       </block>
     </swiper>
   </view>
+  <!-- 模版 -->
   <template is="head" data="{{...item}}" />
+  <!-- 文章列表面板 -->
   <view class="page__bd page__bd_spacing">
     <view class="kind-list">
       <block wx:for="{{list}}" wx:key="id">
@@ -59,11 +62,12 @@
             <view class="weui-flex__item">{{item.name}}</view>
             <image class="kind-list__img" src="../../image/kind/{{item.id}}.png"></image>
           </view>
+          <!-- 弹框内容 -->
           <view class="kind-list__item-bd {{item.open ? 'kind-list__item-bd_show' : ''}}">
             <view class="weui-cells {{item.open ? 'weui-cells_show' : ''}}">
               <block wx:for="{{item.pages}}" wx:for-item="page" wx:key="*this">
-                <navigator url="pages/{{page}}/{{page}}" class="weui-cell weui-cell_access">
-                  <view class="weui-cell__bd">{{page}}</view>
+                <navigator url="{{page.url}}" class="weui-cell weui-cell_access">
+                  <view class="weui-cell__bd">{{page.zh}}</view>
                   <view class="weui-cell__ft weui-cell__ft_in-access"></view>
                 </navigator>
               </block>

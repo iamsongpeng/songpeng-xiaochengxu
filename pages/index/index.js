@@ -23,38 +23,101 @@ Page({
         id: 'Scientificmethod',
         name: '方法论',
         open: false,
-        pages: ['科学方法论', '知识学习方法论', '写作技能方法论'],
-        contents: ['科学方法论', '知识学习方法论', '写作技能方法论']
+        pages: [
+          {
+            zh: '科学方法论',
+            url: 'scientific/scientific'
+          }, {
+            zh: '知识学习方法论',
+            url: 'knowledge/knowledge'
+          }, {
+            zh: '写作技能方法论',
+            url: 'writing/writing'
+          }
+        ]
       }, {
         id: 'writing',
         name: '写作',
         open: false,
-        pages: ['科学方法论', '知识学习方法论', '写作技能方法论'],
-        contents: ['科学方法论', '知识学习方法论', '写作技能方法论']
+        pages: [
+          {
+            zh: '科学方法论',
+            url: 'scientific/scientific'
+          }, {
+            zh: '知识学习方法论',
+            url: 'knowledge/knowledge'
+          }, {
+            zh: '写作技能方法论',
+            url: 'writing/writing'
+          }
+        ]
       }, {
         id: 'coffee',
         name: '咖啡',
         open: false,
-        pages: ['科学方法论', '知识学习方法论', '写作技能方法论'],
-        contents: ['科学方法论', '知识学习方法论', '写作技能方法论']
+        pages: [
+          {
+            zh: '科学方法论',
+            url: 'scientific/scientific'
+          }, {
+            zh: '知识学习方法论',
+            url: 'knowledge/knowledge'
+          }, {
+            zh: '写作技能方法论',
+            url: 'writing/writing'
+          }
+        ]
       }, {
         id: 'guitar',
         name: '吉他',
         open: false,
-        pages: ['科学方法论', '知识学习方法论', '写作技能方法论'],
-        contents: ['科学方法论', '知识学习方法论', '写作技能方法论']
+        pages: [
+          {
+            zh: '科学方法论',
+            url: 'scientific/scientific'
+          }, {
+            zh: '知识学习方法论',
+            url: 'knowledge/knowledge'
+          }, {
+            zh: '写作技能方法论',
+            url: 'writing/writing'
+          }
+        ]
       }, {
         id: 'coding',
         name: '编程',
         open: false,
-        pages: ['在进步的编程运动员', '在进步的编程运动员', '在进步的编程运动员', '在进步的编程运动员'],
-        contents: ['3.1-将学习游戏化', '3.2-模仿游戏的设计方法设计自己的学习模式', '3.3-不要害怕上瘾', '3.4-奖励自己']
+        pages: [
+          {
+            zh: '将学习游戏化',
+            url: 'scientific/scientific'
+          }, {
+            zh: '模仿游戏的设计方法设计自己的学习模式',
+            url: 'knowledge/knowledge'
+          }, {
+            zh: '不要害怕上瘾',
+            url: 'writing/writing'
+          }, {
+            zh: '奖励自己',
+            url: 'writing/writing'
+          }
+        ]
       }, {
         id: 'keepingfit',
         name: '徒手健身',
         open: false,
-        pages: ['科学方法论', '知识学习方法论', '写作技能方法论'],
-        contents: ['科学方法论', '知识学习方法论', '写作技能方法论']
+        pages: [
+          {
+            zh: '科学方法论',
+            url: 'scientific/scientific'
+          }, {
+            zh: '知识学习方法论',
+            url: 'knowledge/knowledge'
+          }, {
+            zh: '写作技能方法论',
+            url: 'writing/writing'
+          }
+        ]
       }
     ]
   },
