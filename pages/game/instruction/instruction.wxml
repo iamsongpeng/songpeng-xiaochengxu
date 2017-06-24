@@ -1,0 +1,52 @@
+<!--instruction.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">科学方法论</view>
+        <view class="page__desc">文章</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-article">
+            <view class="weui-article__h1">建立对学习内容的基本认知</view>
+            <view class="weui-article__section">
+                <view class="weui-article__title">章标题</view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">1.1 节标题</view>
+                    <view class="weui-article__p">
+                        俄罗斯方块表面上看似乎没有什么好玩的，你的目标是堆积下落的方块，让他们之间留出的空隙尽量小。方块的下落速度越来越快，游戏也随之越来越难，这个游戏是无止境的，最后你一定会输！既然是一款不可能赢的游戏，为什么能成世界上不论是下载量还是玩家数最多的呢？
+                    </view>
+                    <view class="weui-article__p">
+                        关键就在于它的“上瘾”反馈。一旦你成功的把俄罗斯方块堆叠起来，就能得到三种反馈：
+                    </view>
+                    <view class="weui-article__p">
+                        一是视觉上的，你看到一排排“方块”噗噗的消失；
+                    </view>
+                    <view class="weui-article__p">
+                        二是数量上的，屏幕的分数不断上涨；
+                    </view>
+                    <view class="weui-article__p">
+                        三是性质上的，你感受到了持续上升的挑战性。
+                    </view>
+                    <view class="weui-article__p">
+                        这种强反馈力度，会让玩家需要发挥出技能的最高水平，并一直游走在失败的边缘，等你真的失败了，会产生重攀上高峰的冲动。这是因为人在能力极限下进行工作时所达到的投入状态，是没有什么能够比得上的，这种状态就是游戏设计师和心理学家所谓的“心流”（flow）。一旦进入心流状态，人们就想长久地停留在那里不管是放弃还是获胜，两种结果都同样无法让你心满意足。
+                    </view>
+                    <view class="weui-article__p">
+                        作者：张知悦。来源：知乎链接：https://www.zhihu.com/question/27363136/answer/149401522
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="http://odhng6tv1.bkt.clouddn.com/swiper-1.png" mode="aspectFit" style="height: 180px" />
+                        <image class="weui-article__img" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" mode="aspectFit" style="height: 180px" />
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">1.2 节标题</view>
+                    <view class="weui-article__p">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

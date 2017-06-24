@@ -9,7 +9,8 @@
     "pages/my/about/about",
     "pages/index/scientific/scientific",
     "pages/index/knowledge/knowledge",
-    "pages/index/writing/writing"
+    "pages/index/writing/writing",
+    "pages/game/instruction/instruction"
   ],
   "window": {
     "backgroundTextStyle": "light",

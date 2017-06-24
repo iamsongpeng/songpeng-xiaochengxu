@@ -13,12 +13,6 @@ Page({
       headimg: "../../image/kind/basketball.png",
       dictum: "这里是可能可以解忧的“杂货铺”，\n我是铺子老板，\n一个在进步的编程运动员——宋鹏"
     },
-    current: {
-      poster: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
-      name: '此时此刻',
-      author: '许巍',
-      src: 'http://ws.stream.qqmusic.qq.com/M500001VfvsJ21xFqb.mp3?guid=ffffffff82def4af4b12b3cd9337d5e7&uin=346897220&vkey=6292F51E1E384E06DCBDC9AB7C49FD713D632D313AC4858BACB8DDD29067D3C601481D36E62053BF8DFEAF74C0A5CCFADD6471160CAF3E6A&fromtag=46',
-    },
     audioAction: {
       method: 'pause'
     },
@@ -62,13 +56,13 @@ Page({
         open: false,
         pages: [
           {
-            zh: '科学方法论',
+            zh: '如何找到最适合你的那杯咖啡',
             url: 'scientific/scientific'
           }, {
-            zh: '知识学习方法论',
+            zh: '我眼中的咖啡之理工版',
             url: 'knowledge/knowledge'
           }, {
-            zh: '写作技能方法论',
+            zh: '我眼中的咖啡之文艺版(约稿 或 投稿)',
             url: 'writing/writing'
           }
         ]
@@ -78,13 +72,16 @@ Page({
         open: false,
         pages: [
           {
-            zh: '科学方法论',
+            zh: '指弹吉他是只弹不唱吗',
             url: 'scientific/scientific'
           }, {
-            zh: '知识学习方法论',
+            zh: '别跟我说什么：入门吉他推荐！',
             url: 'knowledge/knowledge'
           }, {
-            zh: '写作技能方法论',
+            zh: '好的作品得推荐',
+            url: 'writing/writing'
+          }, {
+            zh: '好的作品的作者的好玩的故事得说说',
             url: 'writing/writing'
           }
         ]
@@ -94,16 +91,16 @@ Page({
         open: false,
         pages: [
           {
-            zh: '将学习游戏化',
+            zh: '在进步的编程运动员',
             url: 'scientific/scientific'
           }, {
-            zh: '模仿游戏的设计方法设计自己的学习模式',
+            zh: '"严肃课题"之一个字：穿',
             url: 'knowledge/knowledge'
           }, {
-            zh: '不要害怕上瘾',
+            zh: '哪怕再小！也得是个完整的作品',
             url: 'writing/writing'
           }, {
-            zh: '奖励自己',
+            zh: '程序员可以懂设计（罗子雄的演讲整理）',
             url: 'writing/writing'
           }
         ]
@@ -113,13 +110,16 @@ Page({
         open: false,
         pages: [
           {
-            zh: '科学方法论',
+            zh: '安全（健身教练，线上线下）',
             url: 'scientific/scientific'
           }, {
-            zh: '知识学习方法论',
+            zh: '合理饮食',
             url: 'knowledge/knowledge'
           }, {
-            zh: '写作技能方法论',
+            zh: '适当运动',
+            url: 'writing/writing'
+          }, {
+            zh: '心理健康',
             url: 'writing/writing'
           }
         ]

@@ -68,7 +68,7 @@
                 <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
               </view>
               <view class="weui-cell__bd weui-cell_primary">
-                <view>张震</view>
+                <view>薛宽宽</view>
               </view>
               <view class="weui-cell__ft weui-cell__ft_in-access"></view>
             </navigator>
@@ -77,7 +77,15 @@
                 <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
               </view>
               <view class="weui-cell__bd weui-cell_primary">
-                <view>张卫健</view>
+                <view>张耀军</view>
+              </view>
+              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator><navigator url="../index/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+              <view class="weui-cell__hd">
+                <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
+              </view>
+              <view class="weui-cell__bd weui-cell_primary">
+                <view>孙齐辉</view>
               </view>
               <view class="weui-cell__ft weui-cell__ft_in-access"></view>
             </navigator>
