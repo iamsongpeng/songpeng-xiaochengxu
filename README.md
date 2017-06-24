@@ -4,9 +4,7 @@
 
 ## 2 分析设计图
 
-![song-index](http://odhng6tv1.bkt.clouddn.com/song-index.png)
-
-![song-my](http://odhng6tv1.bkt.clouddn.com/song-my.png)
+![song-index](http://odhng6tv1.bkt.clouddn.com/song-index-1.png)
 
 参考资料：
 
