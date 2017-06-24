@@ -34,11 +34,6 @@
           <view>实时搜索文本</view>
         </view>
       </navigator>
-      <navigator url="" class="weui-cell" hover-class="weui-cell_active">
-        <view class="weui-cell__bd">
-          <view>实时搜索文本</view>
-        </view>
-      </navigator>
     </view>
   </view>
   <!-- 轮播图 -->
@@ -50,6 +45,12 @@
         </swiper-item>
       </block>
     </swiper>
+  </view>
+  <!-- 音乐 -->
+  <view class="page__bd"  style="margin-top:10px">
+    <view style="text-align: center;">
+      <audio style="text-align: left" src="{{current.src}}" poster="{{current.poster}}" name="{{current.name}}" author="{{current.author}}" action="{{audioAction}}" controls></audio>
+    </view>
   </view>
   <!-- 模版 -->
   <template is="head" data="{{...item}}" />

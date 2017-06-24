@@ -4,6 +4,12 @@
 
 ## 2 分析设计图
 
+参考资料：
+
+* [icon](http://www.iconfont.cn)
+* [在线压缩 PNG 图片](tinypng.com)
+* [在线压缩 svg 图片](iconizr.com)
+
 ## 3 项目目录结构
 
 ## 4 代码分析
@@ -88,3 +94,4 @@ this.setData({nickName: '小打卡'})
 * [实战：“小打卡”小程序从创意到上线完整开发过程解析](http://geek.csdn.net/news/detail/160206)
 * [24小时从0到1开发阴阳师小程序](http://www.jianshu.com/p/89f6eb4aa3e6#)
 * [Growth - 陪你成为顶尖开发者](https://github.com/phodal/growth)
+* [](http://www.xcxwo.com/)

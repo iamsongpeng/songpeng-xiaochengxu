@@ -3,11 +3,7 @@ Page({
   data: {
     inputShowed: false,
     inputVal: "",
-    imgUrls: [
-      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
-    ],
+    imgUrls: [],
     indicatorDots: true,
     autoplay: true,
     interval: 5000,
@@ -16,6 +12,15 @@ Page({
     item: {
       headimg: "../../image/kind/basketball.png",
       dictum: "这里是可能可以解忧的“杂货铺”，\n我是铺子老板，\n一个在进步的编程运动员——宋鹏"
+    },
+    current: {
+      poster: 'http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000',
+      name: '此时此刻',
+      author: '许巍',
+      src: 'http://ws.stream.qqmusic.qq.com/M500001VfvsJ21xFqb.mp3?guid=ffffffff82def4af4b12b3cd9337d5e7&uin=346897220&vkey=6292F51E1E384E06DCBDC9AB7C49FD713D632D313AC4858BACB8DDD29067D3C601481D36E62053BF8DFEAF74C0A5CCFADD6471160CAF3E6A&fromtag=46',
+    },
+    audioAction: {
+      method: 'pause'
     },
     article: null,
     list: [
@@ -127,15 +132,24 @@ Page({
   },
   onReady: function () {
     // 页面渲染完成
-    // new AV.Query('Article')
-    //   .include('avatar') // avatar is an AV.File
-    //   .get('5942ca358d6d810058cb6893')
-    //   .then(article => {
-    //     this.setData({ article });
-    //     WxParse.wxParse('article', 'md', article.attributes.test, this, 5);
-    //     console.log(article.attributes.test);
-    //   })
-    //   .catch(console.error);
+    new AV.Query('Swiper')
+      .descending('594be737fe88c2005f7124ff')
+      .find()
+      .then((result) => {
+        this.setData({ imgUrls: result[0].attributes.imgUrls });
+      })
+      .catch(console.error);
+
+    // wx.request({
+    //   url: 'https://api.leancloud.cn/1.1/classes/Swiper/594be737fe88c2005f7124ff', 
+    //   data: {},
+    //   header: {
+    //     'content-type': 'application/json'
+    //   },
+    //   success: function (res) {
+    //     console.log(res.data)
+    //   }
+    // })
   },
   onShow: function () {
     // 页面显示

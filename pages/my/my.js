@@ -3,7 +3,7 @@ var base64 = require("../../image/base64");
 Page({
   data: {
     item: {
-      headimg: "../../../image/kind/fisher.png",
+      headimg: "../../image/kind/fisher.png",
       dictum: "Good artists copy, great artists steal.\n拙匠抄, 巧匠盗!\n乔布斯说过，毕加索也说过"
     }
   },
