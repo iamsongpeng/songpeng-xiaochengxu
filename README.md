@@ -4,6 +4,10 @@
 
 ## 2 分析设计图
 
+[song-index](http://odhng6tv1.bkt.clouddn.com/song-index.png)
+
+[song-my](http://odhng6tv1.bkt.clouddn.com/song-my.png)
+
 参考资料：
 
 * [icon](http://www.iconfont.cn)
@@ -77,7 +81,7 @@ data: {nickName: '某某'}
 
 在通过网络请求后可以通过setData()函数来改变数据：
 
-this.setData({nickName: '小打卡'})
+this.setData({nickName: '大鹏'})
 
 执行这个函数操作后，你所看到的界面内容也随之改变。
 
