@@ -10,7 +10,8 @@
     "pages/index/scientific/scientific",
     "pages/index/knowledge/knowledge",
     "pages/index/writing/writing",
-    "pages/game/instruction/instruction"
+    "pages/game/instruction/instruction",
+    "pages/game/card/card"
   ],
   "window": {
     "backgroundTextStyle": "light",

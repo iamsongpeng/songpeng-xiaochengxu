@@ -34,7 +34,7 @@ Page({
           imgurl: "",
           title: "No.1 添加自己的知识学习问答卡",
           content: "建立对学习内容的基本认知",
-          url: 'knowledge/knowledge'
+          url: 'card/card'
         }
       },
       {
