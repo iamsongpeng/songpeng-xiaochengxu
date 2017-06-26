@@ -20,7 +20,7 @@
                   <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
                 </view>
                 <view class="weui-cell__bd weui-cell_primary">
-                  <view>当前版本</view>
+                  <view>当前版本 1.0.0</view>
                 </view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
               </navigator>

@@ -1,0 +1,18 @@
+<!--firstcamera.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">科技与人文</view>
+    <view class="page__desc">Scientific_method</view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-article">
+      <view class="weui-article__h1">问：世界上第一款网络摄像头是因何发明的？</view>
+      <view class="weui-article__section">
+        <view class="weui-article__section">
+          <view class="weui-article__p">答：在剑桥大学计算机研究中心只有主计算机房有咖啡壶， 常有科学家跑去喝咖啡发现咖啡已经喝完了，为了避免白跑，监测咖啡，剑桥的科学家于 1991 年发明了第一个网络摄像头。
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

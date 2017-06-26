@@ -29,9 +29,6 @@ Page({
           }, {
             zh: '知识学习方法论',
             url: 'knowledge/knowledge'
-          }, {
-            zh: '写作技能方法论',
-            url: 'writing/writing'
           }
         ]
       }, {
@@ -40,13 +37,16 @@ Page({
         open: false,
         pages: [
           {
-            zh: '科学方法论',
+            zh: '如何写？',
             url: 'scientific/scientific'
           }, {
-            zh: '知识学习方法论',
+            zh: '写什么？',
             url: 'knowledge/knowledge'
           }, {
-            zh: '写作技能方法论',
+            zh: '为了啥？',
+            url: 'writing/writing'
+          }, {
+            zh: '有啥用？',
             url: 'writing/writing'
           }
         ]
@@ -63,6 +63,9 @@ Page({
             url: 'knowledge/knowledge'
           }, {
             zh: '我眼中的咖啡之文艺版(约稿 或 投稿)',
+            url: 'writing/writing'
+          }, {
+            zh: '一杯咖啡而已',
             url: 'writing/writing'
           }
         ]
@@ -100,7 +103,13 @@ Page({
             zh: '哪怕再小！也得是个完整的作品',
             url: 'writing/writing'
           }, {
-            zh: '程序员可以懂设计（罗子雄的演讲整理）',
+            zh: '程序员可以懂些设计',
+            url: 'writing/writing'
+          }, {
+            zh: '数据结构与算法的幸福生活',
+            url: 'writing/writing'
+          }, {
+            zh: '设计模式与我的工作模式',
             url: 'writing/writing'
           }
         ]
@@ -110,7 +119,7 @@ Page({
         open: false,
         pages: [
           {
-            zh: '安全（健身教练，线上线下）',
+            zh: '安全',
             url: 'scientific/scientific'
           }, {
             zh: '合理饮食',
@@ -121,6 +130,26 @@ Page({
           }, {
             zh: '心理健康',
             url: 'writing/writing'
+          }
+        ]
+      }, {
+        id: 'sciencehumanity',
+        name: '科技与人文',
+        open: false,
+        pages: [
+          {
+            zh: '世界上第一款网络摄像头是因何发明的？',
+            url: 'firstcamera/firstcamera'
+          }
+        ]
+      }, {
+        id: 'other',
+        name: '还有啥',
+        open: false,
+        pages: [
+          {
+            zh: '别说话，看我！',
+            url: 'scientific/scientific'
           }
         ]
       }

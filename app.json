@@ -4,14 +4,15 @@
     "pages/meta/meta",
     "pages/game/game",
     "pages/my/my",
+    "pages/my/about/about",
     "pages/meta/pages/new/new",
     "pages/game/knowledge/knowledge",
-    "pages/my/about/about",
     "pages/index/scientific/scientific",
     "pages/index/knowledge/knowledge",
     "pages/index/writing/writing",
     "pages/game/instruction/instruction",
-    "pages/game/card/card"
+    "pages/game/card/card",
+    "pages/index/firstcamera/firstcamera"
   ],
   "window": {
     "backgroundTextStyle": "light",
