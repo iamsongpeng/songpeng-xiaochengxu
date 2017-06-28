@@ -1,20 +1,4 @@
-## 1 需求分析
-
-### 1.1 
-
-## 2 分析设计图
-
-![song-index](http://odhng6tv1.bkt.clouddn.com/song-index-1.png)
-
-参考资料：
-
-* [icon](http://www.iconfont.cn)
-* [在线压缩 PNG 图片](tinypng.com)
-* [在线压缩 svg 图片](iconizr.com)
-
-## 3 项目目录结构
-
-## 4 代码分析
+路线图：1 需求分析 --> 2 分析设计图 --> 3 项目目录结构 --> 4 代码分析 --> 5 打包上线
 
 ### 4.1 准备工作
 
@@ -71,45 +55,39 @@
 小程序通过逻辑page.js中设置数据的改变，带来界面相应的变化，需要和服务器端程序约定好数据交互的格式。
 完成前端的界面以后，你可能写了一堆假界面，或者说是静态的界面。在微信小程序中，我们改变逻辑层的page.js文件中定义data对象下某个属性的值，则引起视图page.wxml文件中的该属性值自动变为改变后的值。简而言之，如果需要改变界面上的内容，比如不同的用户显示不同的昵称，我们只需要在page.js这样定义data对象数据：
 
-data: {nickName: '某某'}
+`data: {nickName: '某某'}`
 
-在page.xml中使用这个数据：
+在page.xml中使用这个数据：`<view> {{nickName}}</view>`
 
-<view> {{nickName}}</view>
+在通过网络请求后可以通过`setData()`函数来改变数据：
 
-在通过网络请求后可以通过setData()函数来改变数据：
-
-this.setData({nickName: '大鹏'})
+`this.setData({nickName: '大鹏'})`
 
 执行这个函数操作后，你所看到的界面内容也随之改变。
 
 因此，在写后端代码之前，我们可以先捋一捋各个页面或者功能需要发生变化的数据，并且该数据需要从服务器获取，我们通过撰写接口文档，让前后端遵循这个规定进行数据交互。下图是我的小打卡小程序的接口示例：
 
-## N-blog
+## song
 
 使用 微信小程序制作一款学习类软件
 
 ## 开发环境
 
-- Node.js: `6.9.1`
-- MongoDB: `3.2.10`
-- Express: `4.14.0`
+- 微信web开发者工具
 
 ## 目录
 
-- 开发环境搭建
+- 1 开发环境搭建
     - [微信小程序开发工具的安装与使用]()
         - []()
-- 微信小程序 知识点讲解]()
-- Hello World!
+- 2 微信小程序 知识点讲解]()
+- 3 Hello World!
     - [初始化一个 微信小程序 项目]()
-        - []()
-    - [](https://github.com/nswbmw/N-blog/blob/master/book/3.2%20%E8%B7%AF%E7%94%B1.md)
-- 一个简单的微信小程序
-    - [开发环境]()
-    - [准备工作]()
-        - [目录结构]()
-        - [安装依赖模块]()
+- 4 一个简单的微信小程序
+    - 4.1 [开发环境]()
+    - 4.2 [准备工作]()
+        - 4.2.1 [目录结构]()
+        - 4.2.2 [安装依赖模块]()
     - [配置文件](
         - [功能与路由设计]()
         - [会话]()
@@ -149,7 +127,9 @@ this.setData({nickName: '大鹏'})
 * [Growth - 陪你成为顶尖开发者](https://github.com/phodal/growth)
 * [](http://www.xcxwo.com/)
 * [N-blog-一起学Node.js](https://github.com/nswbmw/N-blog)
-
+* [icon](http://www.iconfont.cn)
+* [在线压缩 PNG 图片](tinypng.com)
+* [在线压缩 svg 图片](iconizr.com)
 
 ## GitBook
 
