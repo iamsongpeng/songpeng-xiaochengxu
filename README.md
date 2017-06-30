@@ -130,6 +130,9 @@
 * [icon](http://www.iconfont.cn)
 * [在线压缩 PNG 图片](tinypng.com)
 * [在线压缩 svg 图片](iconizr.com)
+* Leancloud 资源
+	* 官方文档
+	* 官方视频教学：哔哩哔哩
 
 ## GitBook
 
