@@ -7,6 +7,16 @@ Page({
     list: [
       {
         id: 'new',
+        name: '0. 元学习通关宝典',
+        open: false,
+        pages: [
+          {
+            zh: '元学习三部曲',
+            url: 'new/new'
+          }
+        ]
+      }, {
+        id: 'new',
         name: '1. 进入新手村',
         open: false,
         pages: [
@@ -39,7 +49,45 @@ Page({
         ]
       }, {
         id: 'master',
-        name: '3. 跨越到专家',
+        name: '3. 成为胜任者',
+        open: false,
+        pages: [
+          {
+            zh: '将学习游戏化',
+            url: 'master/master'
+          }, {
+            zh: '模仿游戏的设计方法设计自己的学习模式',
+            url: 'master/master'
+          }, {
+            zh: '不要害怕上瘾',
+            url: 'master/master'
+          }, {
+            zh: '奖励自己',
+            url: 'master/master'
+          }
+        ]
+      }, {
+        id: 'master',
+        name: '4. 步入精通者',
+        open: false,
+        pages: [
+          {
+            zh: '将学习游戏化',
+            url: 'master/master'
+          }, {
+            zh: '模仿游戏的设计方法设计自己的学习模式',
+            url: 'master/master'
+          }, {
+            zh: '不要害怕上瘾',
+            url: 'master/master'
+          }, {
+            zh: '奖励自己',
+            url: 'master/master'
+          }
+        ]
+      }, {
+        id: 'master',
+        name: '5. 跨越到专家',
         open: false,
         pages: [
           {

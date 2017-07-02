@@ -32,7 +32,7 @@ Page({
       {
         pages: {
           imgurl: "",
-          title: "No.1 添加自己的知识学习问答卡",
+          title: "第零关：添加自己的知识学习问答卡",
           content: "建立对学习内容的基本认知",
           url: 'card/card'
         }
@@ -40,7 +40,7 @@ Page({
       {
         pages: {
           imgurl: "",
-          title: "新手 No.1",
+          title: "第一关：新手",
           content: "建立对学习内容的基本认知",
           url: 'knowledge/knowledge'
         }
@@ -48,7 +48,7 @@ Page({
       {
         pages: {
           imgurl: "",
-          title: "新手 No.2",
+          title: "第二关：高级新手",
           content: "拼出学习内容。学习不是登山，而是拼图。因为对于一个全新的学习内容",
           url: 'new/new'
         }
@@ -56,7 +56,7 @@ Page({
       {
         pages: {
           imgurl: "",
-          title: "新手 No.1",
+          title: "第三关：胜任者",
           content: "建立对学习内容的基本认知",
           url: 'knowledge/knowledge'
         }
@@ -64,7 +64,7 @@ Page({
       {
         pages: {
           imgurl: "",
-          title: "新手 No.2",
+          title: "第四关：精通者",
           content: "拼出学习内容。学习不是登山，而是拼图。因为对于一个全新的学习内容",
           url: 'new/new'
         }
@@ -72,23 +72,7 @@ Page({
       {
         pages: {
           imgurl: "",
-          title: "新手 No.2",
-          content: "拼出学习内容。学习不是登山，而是拼图。因为对于一个全新的学习内容",
-          url: 'new/new'
-        }
-      },
-      {
-        pages: {
-          imgurl: "",
-          title: "新手 No.1",
-          content: "建立对学习内容的基本认知",
-          url: 'knowledge/knowledge'
-        }
-      },
-      {
-        pages: {
-          imgurl: "",
-          title: "新手 No.2",
+          title: "第五关：专家",
           content: "拼出学习内容。学习不是登山，而是拼图。因为对于一个全新的学习内容",
           url: 'new/new'
         }

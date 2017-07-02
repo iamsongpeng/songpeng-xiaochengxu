@@ -25,7 +25,7 @@ Page({
         pages: [
           {
             zh: '科学方法论',
-            url: 'scientific/scientific'
+            url: 'scientific/scientific?id=1'
           }, {
             zh: '知识学习方法论',
             url: 'knowledge/knowledge'
@@ -38,7 +38,7 @@ Page({
         pages: [
           {
             zh: '如何写？',
-            url: 'scientific/scientific'
+            url: 'scientific/scientific?id=2'
           }, {
             zh: '写什么？',
             url: 'knowledge/knowledge'
@@ -165,20 +165,10 @@ Page({
       .descending('594be737fe88c2005f7124ff')
       .find()
       .then((result) => {
+        console.log(result);
         this.setData({ imgUrls: result[0].attributes.imgUrls });
       })
       .catch(console.error);
-
-    // wx.request({
-    //   url: 'https://api.leancloud.cn/1.1/classes/Swiper/594be737fe88c2005f7124ff', 
-    //   data: {},
-    //   header: {
-    //     'content-type': 'application/json'
-    //   },
-    //   success: function (res) {
-    //     console.log(res.data)
-    //   }
-    // })
   },
   onShow: function () {
     // 页面显示

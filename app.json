@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/testLeancloud/testLeancloud",
     "pages/meta/meta",
     "pages/game/game",
     "pages/my/my",
