@@ -1,0 +1,25 @@
+<!--content.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">方法论</view>
+    <view class="page__desc">Scientific_method</view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-article">
+      <view class="weui-article__h1">科学方法论</view>
+      <view class="weui-article__section">
+        <view class="weui-article__section">
+          <view class="weui-article__h3"></view>
+          <view class="weui-article__p">{{article.content}}</view>
+          <view class="weui-article__p">
+          </view>
+          <view class="weui-article__p">
+          </view>
+          <view class="weui-article__p">
+            <image class="weui-article__img" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" mode="aspectFit" style="height: 180px" />
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

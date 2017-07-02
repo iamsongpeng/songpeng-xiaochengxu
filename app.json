@@ -8,12 +8,9 @@
     "pages/my/about/about",
     "pages/meta/pages/new/new",
     "pages/game/knowledge/knowledge",
-    "pages/index/scientific/scientific",
-    "pages/index/knowledge/knowledge",
-    "pages/index/writing/writing",
     "pages/game/instruction/instruction",
     "pages/game/card/card",
-    "pages/index/firstcamera/firstcamera"
+    "pages/index/content/content"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,18 +1,27 @@
-// knowledge.js
+// content.js
+const AV = require('../../../utils/av-weapp-min');
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    article:{}
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    // 请求数据
+    new AV.Query('Article')
+      .get(options.id)
+      .then( (result) => {
+        console.log(result);
+        this.setData({ article: result.attributes });
+      })
+      .catch(console.error);
+
   },
 
   /**
