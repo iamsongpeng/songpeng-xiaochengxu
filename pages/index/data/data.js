@@ -9,7 +9,10 @@ var list = [
         url: '../article/article?id=595919580ce4630058aa9a51'
       }, {
         zh: '知识学习方法论',
-        url: '../article/article?id=595916ae128fe10058421c33'
+        url: '../article/article?id=595e50752f301e00648bfa4a'
+      }, {
+        zh: '制作知识学习卡',
+        url: '../game/card/card'
       }
     ]
   }, {

@@ -11,7 +11,7 @@
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell weui-cell_input">
         <view class="weui-cell__bd">
-          <input class="weui-input" placeholder="例子：咖啡" />
+          <input class="weui-input" placeholder="例如：咖啡" />
         </view>
       </view>
     </view>
@@ -21,7 +21,7 @@
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
         <view class="weui-cell__bd">
-          <textarea class="weui-textarea" placeholder="例子：咖啡是一种水果。咖啡能制作成饮料。咖啡是一种天然的美味的功能性食品，适当饮用对人类身体有益" style="height: 3.3em" />
+          <textarea class="weui-textarea" placeholder="例如：咖啡是一种水果。咖啡能制作成饮料。咖啡是一种天然的美味的功能性食品，适当饮用对人类身体有益" style="height: 3.3em" />
           <view class="weui-textarea-counter">0/200</view>
         </view>
       </view>
@@ -32,7 +32,7 @@
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
         <view class="weui-cell__bd">
-          <textarea class="weui-textarea" placeholder="例子：比如毕兹咖啡、嬉皮士和皮特..." style="height: 3.3em" />
+          <textarea class="weui-textarea" placeholder="例如：比如毕兹咖啡、嬉皮士和皮特..." style="height: 3.3em" />
           <view class="weui-textarea-counter">0/200</view>
         </view>
       </view>
@@ -43,7 +43,7 @@
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
         <view class="weui-cell__bd">
-          <textarea class="weui-textarea" placeholder="例子：比如毕兹咖啡、嬉皮士和皮特..." style="height: 3.3em" />
+          <textarea class="weui-textarea" placeholder="例如：" style="height: 3.3em" />
           <view class="weui-textarea-counter">0/200</view>
         </view>
       </view>
@@ -54,7 +54,7 @@
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
         <view class="weui-cell__bd">
-          <textarea class="weui-textarea" placeholder="例子：比如毕兹咖啡、嬉皮士和皮特..." style="height: 3.3em" />
+          <textarea class="weui-textarea" placeholder="例如：行走，读书，Google" style="height: 3.3em" />
           <view class="weui-textarea-counter">0/200</view>
         </view>
       </view>
@@ -65,7 +65,7 @@
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
         <view class="weui-cell__bd">
-          <textarea class="weui-textarea" placeholder="例子：比如毕兹咖啡、嬉皮士和皮特..." style="height: 3.3em" />
+          <textarea class="weui-textarea" placeholder="例如：餐饮行业" style="height: 3.3em" />
           <view class="weui-textarea-counter">0/200</view>
         </view>
       </view>
@@ -76,7 +76,7 @@
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
         <view class="weui-cell__bd">
-          <textarea class="weui-textarea" placeholder="例子：比如毕兹咖啡、嬉皮士和皮特..." style="height: 3.3em" />
+          <textarea class="weui-textarea" placeholder="例如：中国咖啡市场" style="height: 3.3em" />
           <view class="weui-textarea-counter">0/200</view>
         </view>
       </view>
@@ -87,7 +87,7 @@
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
         <view class="weui-cell__bd">
-          <textarea class="weui-textarea" placeholder="例子：比如毕兹咖啡、嬉皮士和皮特..." style="height: 3.3em" />
+          <textarea class="weui-textarea" placeholder="例如：" style="height: 3.3em" />
           <view class="weui-textarea-counter">0/200</view>
         </view>
       </view>
@@ -98,7 +98,7 @@
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
         <view class="weui-cell__bd">
-          <textarea class="weui-textarea" placeholder="例子：比如毕兹咖啡、嬉皮士和皮特..." style="height: 3.3em" />
+          <textarea class="weui-textarea" placeholder="例如：" style="height: 3.3em" />
           <view class="weui-textarea-counter">0/200</view>
         </view>
       </view>
@@ -109,13 +109,16 @@
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
         <view class="weui-cell__bd">
-          <textarea class="weui-textarea" placeholder="例子：比如毕兹咖啡、嬉皮士和皮特..." style="height: 3.3em" />
+          <textarea class="weui-textarea" placeholder="例如：" style="height: 3.3em" />
           <view class="weui-textarea-counter">0/200</view>
         </view>
       </view>
     </view>
     <view class="weui-cells__title">
       真正成功的人，无论在哪个领域，无一不是能发现自己的天赋，并将天赋全然绽放的人。但遗憾的是，我们被“木桶理论”局限了，绝大部份的人都将绝大部份宝贵的时间，用于去弥补自己的短板，木桶理论适合用于组织，不适用于个人成长。去发挥你的天赋吧，别理会那块短板！
+    </view>
+    <view class="weui-cells__title">
+      注释：点击添加后，可在 我的 页面中找到，修改或删除！
     </view>
     <!-- 确定提交按钮 -->
     <view class="weui-btn-area">

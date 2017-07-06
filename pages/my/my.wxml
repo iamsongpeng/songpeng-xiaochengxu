@@ -49,7 +49,7 @@
                   <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
                 </view>
                 <view class="weui-cell__bd weui-cell_primary">
-                  <view>文字标题</view>
+                  <view>我的知识学习卡</view>
                 </view>
                 <view class="weui-cell__ft weui-cell__ft_in-access"></view>
               </navigator>
