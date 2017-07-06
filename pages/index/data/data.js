@@ -41,7 +41,7 @@ var list = [
     pages: [
       {
         zh: '如何找到最适合你的那杯咖啡',
-        url: '../article/article?id=1'
+        url: '../article/article?id=595e79d5a22b9d006b614aa4'
       }, {
         zh: '我眼中的咖啡之理工版',
         url: '../article/article?id=1'
@@ -79,22 +79,22 @@ var list = [
     pages: [
       {
         zh: '在进步的编程运动员',
-        url: '../article/article?id=1'
+        url: '../article/article?id=595e6b3d0ce4630058e897f3'
       }, {
         zh: '"严肃课题"之一个字：穿',
-        url: '../article/article?id=1'
+        url: '../article/article?id=595e6b3d0ce4630058e897f3'
       }, {
         zh: '哪怕再小！也得是个完整的作品',
-        url: '../article/article?id=1'
+        url: '../article/article?id=595e6b3d0ce4630058e897f3'
       }, {
         zh: '程序员可以懂些设计',
-        url: '../article/article?id=1'
+        url: '../article/article?id=595e6b3d0ce4630058e897f3'
       }, {
         zh: '数据结构与算法的幸福生活',
-        url: '../article/article?id=1'
+        url: '../article/article?id=595e6b3d0ce4630058e897f3'
       }, {
         zh: '设计模式与我的工作模式',
-        url: '../article/article?id=1'
+        url: '../article/article?id=595e6b3d0ce4630058e897f3'
       }
     ]
   }, {
@@ -133,7 +133,7 @@ var list = [
     pages: [
       {
         zh: '别说话，看我！',
-        url: '../article/article?id=1'
+        url: '../article/article?id=595e6f622f301e00648d5340'
       }
     ]
   }
