@@ -11,11 +11,7 @@
                 <view class="weui-article__section">
                     <view class="weui-article__h3">1.1 节标题</view>
                     <view class="weui-article__p">
-                        比如学习编程。
-                        编程就是自动地解决问题：
-                        观察一件事情输入了什么，导致输出了什么
-                        思考事情可以重复被做的方法
-                        不要期待错误的方法能够得到正确的结果
+                        
                     </view>
                     <view class="weui-article__p">
                         <image class="weui-article__img" src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" mode="aspectFit" style="height: 180px" />

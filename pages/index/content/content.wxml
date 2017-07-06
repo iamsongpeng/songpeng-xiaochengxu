@@ -10,7 +10,7 @@
       <view class="weui-article__section">
         <view class="weui-article__section">
           <view class="weui-article__h3"></view>
-          <view class="weui-article__p">{{article.content}}</view>
+          <view class="weui-article__p"><text>{{article.content}}</text></view>
           <view class="weui-article__p">
           </view>
           <view class="weui-article__p">
