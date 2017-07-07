@@ -5,11 +5,7 @@
     "pages/game/game",
     "pages/my/my",
     "pages/my/about/about",
-    "pages/meta/pages/new/new",
-    "pages/game/knowledge/knowledge",
-    "pages/game/instruction/instruction",
-    "pages/game/card/card",
-    "pages/index/content/content",
+    "pages/card/card",
     "pages/article/article"
   ],
   "window": {
