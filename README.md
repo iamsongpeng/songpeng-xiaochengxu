@@ -128,6 +128,8 @@
 * [](http://www.xcxwo.com/)
 * [N-blog-一起学Node.js](https://github.com/nswbmw/N-blog)
 * [icon](http://www.iconfont.cn)
+	* http://www.iconfont.cn/collections/detail?spm=a313x.7781069.1998910419.d9df05512&cid=4626
+	* http://www.iconfont.cn/collections/detail?spm=a313x.7781069.1998910419.d9df05512&cid=4491
 * [在线压缩 PNG 图片](tinypng.com)
 * [在线压缩 svg 图片](iconizr.com)
 * Leancloud 资源
