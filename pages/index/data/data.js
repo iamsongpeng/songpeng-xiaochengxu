@@ -22,16 +22,16 @@ var list = [
     pages: [
       {
         zh: '如何写？',
-        url: '../article/article?id=2'
+        url: '../article/article?id=595f1944ac502e006bb7ed27'
       }, {
         zh: '写什么？',
-        url: '../article/article?id=1'
+        url: '../article/article?id=595f19605c497d0063734297'
       }, {
         zh: '为了啥？',
-        url: '../article/article?id=1'
+        url: '../article/article?id=595f19745c497d006373432e'
       }, {
         zh: '有啥用？',
-        url: '../article/article?id=1'
+        url: '../article/article?id=595f1983570c350058aa31fd'
       }
     ]
   }, {
@@ -43,14 +43,11 @@ var list = [
         zh: '如何找到最适合你的那杯咖啡',
         url: '../article/article?id=595e79d5a22b9d006b614aa4'
       }, {
-        zh: '我眼中的咖啡之理工版',
-        url: '../article/article?id=1'
+        zh: '一杯热咖啡的灵魂是什么？',
+        url: '../article/article?id=595f1d480ce4630058eec90f'
       }, {
-        zh: '我眼中的咖啡之文艺版(约稿 或 投稿)',
-        url: '../article/article?id=1'
-      }, {
-        zh: '一杯咖啡而已',
-        url: '../article/article?id=1'
+        zh: '吃货（褒义词）、咖啡、还有蛋炒饭',
+        url: '../article/article?id=595f1c2ea22b9d006b672d8d'
       }
     ]
   }, {
@@ -62,7 +59,7 @@ var list = [
         zh: '指弹吉他是只弹不唱吗',
         url: '../article/article?id=1'
       }, {
-        zh: '别跟我说什么：入门吉他推荐！',
+        zh: '别跟我说什么：推荐入门吉他！',
         url: '../article/article?id=1'
       }, {
         zh: '好的作品得推荐',

@@ -16,7 +16,7 @@ Page({
           imgurl: "",
           title: "100 字必读版",
           content: "以元学习，认知心理学，刻意练习（并非简单重复！）等知识为理论基础进行游戏化关卡设置，游戏的关卡难易程度，反馈机制，奖励机制等的实践",
-          url: 'instruction/instruction'
+          url: '../article/article?id=595f1f7c8d6d810057285260'
         }
       },
       {
@@ -24,7 +24,7 @@ Page({
           imgurl: "",
           title: "100*100 字非必读版",
           content: "以元学习，认知心理学，刻意练习（并非简单重复！）等知识为理论基础进行游戏化关卡设置，游戏的关卡难易程度，反馈机制，奖励机制等的实践",
-          url: 'instruction/instruction'
+          url: '../article/article?id=595f1f7c8d6d810057285260'
         }
       }
     ],
