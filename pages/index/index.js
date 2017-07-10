@@ -45,26 +45,10 @@ Page({
   onUnload: function () {
     // 页面关闭
   },
-  showInput: function () {
-    this.setData({
-      inputShowed: true
-    });
-  },
-  hideInput: function () {
-    this.setData({
-      inputVal: "",
-      inputShowed: false
-    });
-  },
-  clearInput: function () {
-    this.setData({
-      inputVal: ""
-    });
-  },
   inputTyping: function (e) {
-    this.setData({
-      inputVal: e.detail.value
-    });
+    wx.navigateTo({
+      url: '../search/search'
+    })
   },
   kindToggle: function (e) {
     var id = e.currentTarget.id, list = this.data.list;

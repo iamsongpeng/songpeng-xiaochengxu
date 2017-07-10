@@ -16,31 +16,14 @@ Page({
       }, {
         id: 'copyright',
         title: "版权声明",
-        url: '../../article/article?id=595f1f7c8d6d810057285260'
-      }, {
-        id: 'support',
-        title: "支持开发",
-        url: '../../article/article?id=596360fc8d6d81005759a1ec'
+        url: '../../article/article?id=5963ac8b2f301e0064cabb04'
       }
     ],
     list2: [
       {
         id: 'avatar',
         title: "大鹏",
-        url: '../../article/article?id=595f1f7c8d6d810057285260'
-      },
-      {
-        id: 'avatar',
-        title: "老大",
-        url: '../../article/article?id=595f1f7c8d6d810057285260'
-      }, {
-        id: 'avatar',
-        title: "大哥",
-        url: '../../article/article?id=595f1f7c8d6d810057285260'
-      }, {
-        id: 'avatar',
-        title: "大辉",
-        url: '../../article/article?id=595f1f7c8d6d810057285260'
+        url: '../../article/article?id=595e6f622f301e00648d5340'
       }
     ]
   },
