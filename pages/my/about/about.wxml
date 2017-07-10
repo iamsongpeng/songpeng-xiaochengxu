@@ -6,42 +6,17 @@
         <view class="weui-panel__bd">
           <view class="weui-media-box weui-media-box_small-appmsg">
             <view class="weui-cells weui-cells_in-small-appmsg">
-              <navigator url="../index/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-                <view class="weui-cell__hd">
-                  <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
-                </view>
-                <view class="weui-cell__bd weui-cell_primary">
-                  <view>开源-GitHub</view>
-                </view>
-                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-              </navigator>
-              <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-                <view class="weui-cell__hd">
-                  <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
-                </view>
-                <view class="weui-cell__bd weui-cell_primary">
-                  <view>当前版本 1.0.0</view>
-                </view>
-                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-              </navigator>
-              <navigator url="../index/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-                <view class="weui-cell__hd">
-                  <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
-                </view>
-                <view class="weui-cell__bd weui-cell_primary">
-                  <view>隐私声明</view>
-                </view>
-                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-              </navigator>
-              <navigator url="../index/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-                <view class="weui-cell__hd">
-                  <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
-                </view>
-                <view class="weui-cell__bd weui-cell_primary">
-                  <view>支持开发</view>
-                </view>
-                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-              </navigator>
+              <block wx:for="{{list}}">
+                <navigator url="{{item.url}}" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                  <view class="weui-cell__hd">
+                    <image src="../../../image/my/{{item.id}}.png" style="width: 20px;height: 20px;margin-right: 5px" />
+                  </view>
+                  <view class="weui-cell__bd weui-cell_primary">
+                    <view>{{item.title}}</view>
+                  </view>
+                  <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                </navigator>
+              </block>
             </view>
           </view>
         </view>
@@ -54,41 +29,17 @@
       <view class="weui-panel__bd">
         <view class="weui-media-box weui-media-box_small-appmsg">
           <view class="weui-cells weui-cells_in-small-appmsg">
-            <navigator url="../../article/article" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-              <view class="weui-cell__hd">
-                <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
-              </view>
-              <view class="weui-cell__bd weui-cell_primary">
-                <view>大鹏（宋鹏）</view>
-              </view>
-              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-            </navigator>
-            <navigator url="../../article/article" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-              <view class="weui-cell__hd">
-                <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
-              </view>
-              <view class="weui-cell__bd weui-cell_primary">
-                <view>老大（薛宽宽）</view>
-              </view>
-              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-            </navigator>
-            <navigator url="../index/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-              <view class="weui-cell__hd">
-                <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
-              </view>
-              <view class="weui-cell__bd weui-cell_primary">
-                <view>大哥（张耀军）</view>
-              </view>
-              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-            </navigator><navigator url="../index/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-              <view class="weui-cell__hd">
-                <image src="{{icon20}}" style="width: 20px;height: 20px;margin-right: 5px" />
-              </view>
-              <view class="weui-cell__bd weui-cell_primary">
-                <view>大圣（孙齐辉）</view>
-              </view>
-              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-            </navigator>
+            <block wx:for="{{list2}}">
+              <navigator url="{{item.url}}" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__hd">
+                  <image src="../../../image/my/{{item.id}}.png" style="width: 20px;height: 20px;margin-right: 5px" />
+                </view>
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>{{item.title}}</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+            </block>
           </view>
         </view>
       </view>

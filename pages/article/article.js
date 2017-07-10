@@ -20,7 +20,7 @@ Page({
     new AV.Query('Article')
       .get(options.id)
       .then((result) => {
-        console.log(result.attributes);
+        // console.log(result.attributes);
         this.setData({ article: result.attributes });
         wemark.parse(result.attributes.content, this, {
           // 新版小程序可自适应宽高

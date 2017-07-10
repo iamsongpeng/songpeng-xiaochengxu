@@ -11,14 +11,14 @@ Page({
     duration: 1000,
     demo: 1,
     item: {
-      headimg: "../../image/kind/basketball.png",
+      headimg: "../../image/basketball.png",
       dictum: "这里是可能可以解忧的“杂货铺”，\n我是铺子老板，\n一个在进步的编程运动员——宋鹏"
     },
     audioAction: {
       method: 'pause'
     },
     article: null,
-    list: data
+    list: data.list
   },
   onLoad: function (options) {
     // 页面初始化 options为页面跳转所带来的参数
@@ -30,7 +30,7 @@ Page({
       .descending('594be737fe88c2005f7124ff')
       .find()
       .then((result) => {
-        console.log(result);
+        // console.log(result);
         this.setData({ imgUrls: result[0].attributes.imgUrls });
       })
       .catch(console.error);

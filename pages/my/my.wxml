@@ -11,7 +11,7 @@
             <block wx:for="{{list}}" wx:key="id">
               <navigator url="{{item.url}}" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
                 <view class="weui-cell__hd">
-                  <image src="{{item.imgurl}}" style="width: 20px;height: 20px;margin-right: 5px" />
+                  <image src="../../image/my/{{item.id}}.png" style="width: 20px;height: 20px;margin-right: 5px" />
                 </view>
                 <view class="weui-cell__bd weui-cell_primary">
                   <view>{{item.title}}</view>

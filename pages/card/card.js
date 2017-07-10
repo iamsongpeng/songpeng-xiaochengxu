@@ -6,7 +6,7 @@ Page({
    */
   data: {
     item: {
-      headimg: "../../../image/kind/snowboard-1.png",
+      headimg: "../../../image/snowboard-1.png",
       dictum: "做就牛！"
     },
     showTopTips: false,

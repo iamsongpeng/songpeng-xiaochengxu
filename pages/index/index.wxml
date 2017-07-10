@@ -60,7 +60,7 @@
         <view class="kind-list__item">
           <view id="{{item.id}}" class="weui-flex kind-list__item-hd {{item.open ? 'kind-list__item-hd_show' : ''}}" bindtap="kindToggle">
             <view class="weui-flex__item">{{item.name}}</view>
-            <image class="kind-list__img" src="../../image/kind/{{item.id}}.png"></image>
+            <image class="kind-list__img" src="../../image/index/{{item.id}}.png"></image>
           </view>
           <!-- 弹框内容 -->
           <view class="kind-list__item-bd {{item.open ? 'kind-list__item-bd_show' : ''}}">
