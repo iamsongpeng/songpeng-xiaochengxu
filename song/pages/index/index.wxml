@@ -4,12 +4,12 @@
   <view class="page__bd">
     <view class="weui-search-bar">
       <view class="weui-search-bar__form">
-        <!--<navigator url="../search/search">-->
+        <navigator url="../search/search">
           <view class="weui-search-bar__box">
             <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
-            <input type="text" class="weui-search-bar__input" placeholder="搜索" bindtap="inputTyping" disabled="true" />
+            <input type="text" class="weui-search-bar__input" placeholder="搜索" disabled="true" />
           </view>
-        <!--</navigator>-->
+        </navigator>
       </view>
     </view>
     <view class="weui-cells searchbar-result" wx:if="{{inputVal.length > 0}}">
