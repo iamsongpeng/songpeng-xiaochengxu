@@ -12,7 +12,7 @@ var list = [
         url: '../article/article?id=595e50752f301e00648bfa4a'
       }, {
         zh: '制作知识学习卡',
-        url: '../card/card'
+        url: '../article/article?id=5963a50b0ce463005825687f'
       }
     ]
   }, {

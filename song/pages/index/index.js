@@ -14,10 +14,6 @@ Page({
       headimg: "../../image/basketball.png",
       dictum: "这里是可能可以解忧的“杂货铺”，\n我是铺子老板，\n一个在进步的编程运动员——宋鹏"
     },
-    audioAction: {
-      method: 'pause'
-    },
-    article: null,
     list: data.list
   },
   onLoad: function (options) {

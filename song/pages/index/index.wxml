@@ -1,4 +1,5 @@
 <import src="../common/head.wxml" />
+<import src="../common/foot.wxml" />
 
 <view class="page">
   <view class="page__bd">
@@ -71,4 +72,6 @@
       </block>
     </view>
   </view>
+  <!-- 模版 -->
+  <template is="foot" />
 </view>

@@ -68,19 +68,7 @@ var list2 = [
   }
 ];
 
-var list3 = [
-  {
-    pages: {
-      imgurl: "../../image/game/waterpolo.png",
-      title: "第零关：添加自己的知识学习问答卡",
-      content: "建立对学习内容的基本认知",
-      url: 'card/card'
-    }
-  }
-];
-
 module.exports = {
   list: list,
-  list2: list2,
-  list3: list3
+  list2: list2
 }

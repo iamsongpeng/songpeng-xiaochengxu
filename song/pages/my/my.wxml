@@ -1,5 +1,5 @@
 <import src="../common/head.wxml" />
-
+<import src="../common/foot.wxml" />
 <view class="page">
   <template is="head" data="{{...item}}" />
   <view class="page__bd">
@@ -25,4 +25,6 @@
       </view>
     </view>
   </view>
+  <!-- 模版 -->
+  <template is="foot" />
 </view>
