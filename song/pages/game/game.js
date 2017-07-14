@@ -11,8 +11,7 @@ Page({
       dictum: "大牛的字典里是没有“坚持”二字的，\n他们只是上瘾了。"
     },
     list: data.list,
-    list2: data.list2,
-    lisst3: data.list3 
+    list2: data.list2
   },
   /**
    * 生命周期函数--监听页面加载

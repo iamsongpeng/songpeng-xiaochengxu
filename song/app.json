@@ -7,7 +7,8 @@
     "pages/my/about/about",
     "pages/card/card",
     "pages/article/article",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/test/test"
   ],
   "window": {
     "backgroundTextStyle": "light",

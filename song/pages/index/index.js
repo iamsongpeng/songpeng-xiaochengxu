@@ -1,5 +1,5 @@
 const AV = require('../../utils/av-weapp-min');
-const data = require('data/data');
+
 Page({
   data: {
     inputShowed: false,
@@ -14,7 +14,8 @@ Page({
       headimg: "../../image/basketball.png",
       dictum: "这里是可能可以解忧的“杂货铺”，\n我是铺子老板，\n一个在进步的编程运动员——宋鹏"
     },
-    list: data.list
+    //list: data.list
+    list: []
   },
   onLoad: function (options) {
     // 页面初始化 options为页面跳转所带来的参数
@@ -22,12 +23,13 @@ Page({
   },
   onReady: function () {
     // 页面渲染完成
-    new AV.Query('Swiper')
-      .descending('594be737fe88c2005f7124ff')
+    new AV.Query('Index')
+      .descending('5968eec961ff4b006cf93cbe')
       .find()
       .then((result) => {
-        // console.log(result);
-        this.setData({ imgUrls: result[0].attributes.imgUrls });
+        console.log(result);
+        this.setData({ imgUrls: result[0].attributes.swiper });
+        this.setData({ list: result[0].attributes.list });
       })
       .catch(console.error);
   },

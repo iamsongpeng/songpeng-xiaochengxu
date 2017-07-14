@@ -1,6 +1,6 @@
 /* 覆盖 weui 样式 */
 .page__bd{
-  padding-bottom: 10;
+  padding-bottom: 0;
 }
 /*搜索*/
 .searchbar-result{
