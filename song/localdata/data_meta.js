@@ -1,3 +1,8 @@
+var item = {
+  headimg: "../../image/windsurf-1.png",
+  dictum: "给自己设计游戏规则和边界，\n不断地获得正反馈"
+};
+
 var list = [
   {
     id: 'zero',
@@ -102,5 +107,6 @@ var list = [
 ];
 
 module.exports = {
+  item: item,
   list: list
 }

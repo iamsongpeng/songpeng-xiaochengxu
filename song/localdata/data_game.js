@@ -1,3 +1,10 @@
+// 因为数据量不大，所以就放在本地
+
+var item = {
+  headimg: "../../image/diving.png",
+  dictum: "大牛的字典里是没有“坚持”二字的，\n他们只是上瘾了。"
+}
+
 var list = [
   {
     pages: {
@@ -69,6 +76,7 @@ var list2 = [
 ];
 
 module.exports = {
+  item: item,
   list: list,
   list2: list2
 }

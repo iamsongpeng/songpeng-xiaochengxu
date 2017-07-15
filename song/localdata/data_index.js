@@ -1,3 +1,23 @@
+// 因为数据量不大，所以就放在本地
+
+// 轮播图
+var swiper = [
+  "http://odhng6tv1.bkt.clouddn.com/swiper-1.png",
+  "http://odhng6tv1.bkt.clouddn.com/swiper-2.png",
+  "http://odhng6tv1.bkt.clouddn.com/swiper-3.png",
+  "http://odhng6tv1.bkt.clouddn.com/swiper-4.png",
+  "http://odhng6tv1.bkt.clouddn.com/swiper-5.png",
+  "http://odhng6tv1.bkt.clouddn.com/swiper-6.png",
+  "http://odhng6tv1.bkt.clouddn.com/swiper-8.png"
+];
+
+// 公共头信息
+var item = {
+  headimg: "../../image/basketball.png",
+  dictum: "这里是可能可以解忧的“杂货铺”，\n我是铺子老板，\n一个在进步的编程运动员——宋鹏"
+};
+
+// 面板列表
 var list = [
   {
     id: 'Scientificmethod',
@@ -137,5 +157,7 @@ var list = [
 ];
 
 module.exports = {
+  swiper: swiper,
+  item: item,
   list: list
 }

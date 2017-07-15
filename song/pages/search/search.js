@@ -21,6 +21,7 @@ Page({
       inputVal: ""
     });
   },
+  // 更改为“确认”键后执行搜索，减少请求？？？
   inputTyping: function (e) {
     var param = e.detail.value
     // 改为箭头函数可以避免此问题

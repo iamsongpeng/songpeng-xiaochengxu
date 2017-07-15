@@ -1,11 +1,8 @@
-var data = require("data/data");
+var data = require("../../localdata/data_meta.js");
 
 Page({
   data: {
-    item: {
-      headimg: "../../image/windsurf-1.png",
-      dictum: "给自己设计游戏规则和边界，\n不断地获得正反馈"
-    },
+    item: data.item,
     list: data.list
   },
   kindToggle: function (e) {

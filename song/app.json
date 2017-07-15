@@ -1,14 +1,14 @@
 {
   "pages": [
-    "pages/test/test",
     "pages/index/index",
     "pages/meta/meta",
     "pages/game/game",
     "pages/my/my",
-    "pages/my/about/about",
+    "pages/about/about",
     "pages/card/card",
     "pages/article/article",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/test/test"
   ],
   "window": {
     "backgroundTextStyle": "light",

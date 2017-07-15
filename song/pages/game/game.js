@@ -1,4 +1,4 @@
-var data = require("data/data");
+var data = require("../../localdata/data_game.js");
 
 Page({
 
@@ -6,10 +6,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    item: {
-      headimg: "../../image/diving.png",
-      dictum: "大牛的字典里是没有“坚持”二字的，\n他们只是上瘾了。"
-    },
+    item: data.item,
     list: data.list,
     list2: data.list2
   },
