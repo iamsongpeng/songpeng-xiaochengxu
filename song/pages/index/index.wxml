@@ -2,37 +2,13 @@
 <import src="../common/foot.wxml" />
 <view class="page">
   <view class="page__bd">
-    <!-- <view class="weui-search-bar">
+    <view class="weui-search-bar">
       <view class="weui-search-bar__form">
-        <navigator url="../search/search">
-          <view class="weui-search-bar__box">
-            <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
-            <input type="text" class="weui-search-bar__input" placeholder="搜索" disabled="true" />
-          </view>
-        </navigator>
+        <view class="weui-search-bar__box">
+          <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+          <input type="text" class="weui-search-bar__input" placeholder="搜索" bindfocus="inputTyping"/>
+        </view>
       </view>
-    </view> -->
-    <view class="weui-cells searchbar-result" wx:if="{{inputVal.length > 0}}">
-      <navigator url="" class="weui-cell" hover-class="weui-cell_active">
-        <view class="weui-cell__bd">
-          <view>实时搜索文本</view>
-        </view>
-      </navigator>
-      <navigator url="" class="weui-cell" hover-class="weui-cell_active">
-        <view class="weui-cell__bd">
-          <view>实时搜索文本</view>
-        </view>
-      </navigator>
-      <navigator url="" class="weui-cell" hover-class="weui-cell_active">
-        <view class="weui-cell__bd">
-          <view>实时搜索文本</view>
-        </view>
-      </navigator>
-      <navigator url="" class="weui-cell" hover-class="weui-cell_active">
-        <view class="weui-cell__bd">
-          <view>实时搜索文本</view>
-        </view>
-      </navigator>
     </view>
   </view>
   <!-- 轮播图 -->
@@ -74,4 +50,3 @@
   <!-- 模版 -->
   <template is="foot" />
 </view>
-

@@ -17,15 +17,14 @@
       <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
     </view>
     <block wx:for="{{queryResult}}">
-      {{item.id}}
-      <view class="weui-cells searchbar-result" wx:if="{{item.attributes.title.length > 0}}">
-        <navigator url="../article/article?{{item.id}}" class="weui-cell" hover-class="weui-cell_active">
+      <view class="weui-cells searchbar-result" wx:if="{{item.title.length > 0}}">
+        <navigator url="../article/article?id=595f1f7c8d6d810057285260" class="weui-cell" hover-class="weui-cell_active">
           <view class="weui-cell__bd">
-            <view>{{item.attributes.title}}</view>
+            <view>{{item.title}}</view>
+            <view>{{queryResult[0].id}}</view>
           </view>
         </navigator>
       </view>
     </block>
   </view>
 </view>
-{{results[0]}}
