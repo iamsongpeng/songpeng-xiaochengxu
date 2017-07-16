@@ -16,11 +16,10 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options);
+    // console.log(options);
     // 判断是 id 还是 content 
     if (options.content) {
       wemark.parse(options.content, this, {
-        // 新版小程序可自适应宽高
         name: 'wemark'
       })
     } else if (options.id) {
@@ -38,7 +37,6 @@ Page({
         .catch(console.error);
     } else {
       wemark.parse("# 应用抽风了！请稍后再试", this, {
-        // 新版小程序可自适应宽高
         name: 'wemark'
       })
     }

@@ -77,16 +77,16 @@ var list = [
     pages: [
       {
         zh: '指弹吉他是只弹不唱吗',
-        url: '../article/article?id=1'
+        url: '../article/article?id=596b9671a0bb9f0062bed2a3'
       }, {
         zh: '别跟我说什么：推荐入门吉他！',
-        url: '../article/article?id=1'
+        url: '../article/article?id=596b9977128fe155ce1362d1'
       }, {
         zh: '好的作品得推荐',
         url: '../article/article?id=1'
       }, {
         zh: '好的作品的作者的好玩的故事得说说',
-        url: '../article/article?id=1'
+        url: '../article/article?id=596b9e03ac502e0061586a40'
       }
     ]
   }, {
@@ -98,20 +98,11 @@ var list = [
         zh: '在进步的编程运动员',
         url: '../article/article?id=595e6b3d0ce4630058e897f3'
       }, {
-        zh: '"严肃课题"之一个字：穿',
-        url: '../article/article?id=595e6b3d0ce4630058e897f3'
-      }, {
         zh: '哪怕再小！也得是个完整的作品',
-        url: '../article/article?id=595e6b3d0ce4630058e897f3'
+        url: '../article/article?id=596ba4448d6d8100576ffd70'
       }, {
         zh: '程序员可以懂些设计',
-        url: '../article/article?id=595e6b3d0ce4630058e897f3'
-      }, {
-        zh: '数据结构与算法的幸福生活',
-        url: '../article/article?id=595e6b3d0ce4630058e897f3'
-      }, {
-        zh: '设计模式与我的工作模式',
-        url: '../article/article?id=595e6b3d0ce4630058e897f3'
+        url: '../article/article?id=596ba353fe88c2c1d4fcc857'
       }
     ]
   }, {
