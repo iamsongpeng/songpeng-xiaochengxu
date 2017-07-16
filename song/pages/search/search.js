@@ -30,14 +30,16 @@ Page({
     var query = new AV.Query('Article');
     // 判断输入内容不为空，需要优化
     if (param) {
-      query.contains('title', param);
-      query.find().then(function (results) {
-        that.setData({
-          queryResult: results
+      query.contains('title', param)
+        .find()
+        .then(function (results) {
+          that.setData({
+            queryResult: results
+          });
+          console.log(that.data.queryResult)
+          console.log(results[0].id)
+        }, function (error) {
         });
-        console.log(that.data.queryResult)
-      }, function (error) {
-      });
-    } 
+    }
   }
 });

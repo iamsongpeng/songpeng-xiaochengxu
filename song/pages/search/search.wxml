@@ -9,19 +9,16 @@
             <icon type="clear" size="14"></icon>
           </view>
         </view>
-        <!-- <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
-          <icon class="weui-icon-search" type="search" size="14"></icon>
-          <view class="weui-search-bar__text">搜索</view>
-        </label> -->
       </view>
       <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
     </view>
-    <block wx:for="{{queryResult}}">
-      <view class="weui-cells searchbar-result" wx:if="{{item.title.length > 0}}">
-        <navigator url="../article/article?id=595f1f7c8d6d810057285260" class="weui-cell" hover-class="weui-cell_active">
+    <block wx:for="{{queryResult}}" wx:for-index="idx" wx:for-item="query">
+      {{query.id}}
+      <view class="weui-cells searchbar-result" wx:if="{{query.title.length > 0}}">
+        <!-- 需要确认：navigator 组件 url 传参是否有大小限制？ -->
+        <navigator url="../article/article?content={{query.content}}" class="weui-cell" hover-class="weui-cell_active">
           <view class="weui-cell__bd">
-            <view>{{item.title}}</view>
-            <view>{{queryResult[0].id}}</view>
+            <view>{{query.title}}</view>
           </view>
         </navigator>
       </view>

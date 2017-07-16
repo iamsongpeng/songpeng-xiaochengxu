@@ -144,16 +144,16 @@ var list = [
       }
     ]
   }, {
-    id: 'other',
-    name: '还有啥',
-    open: false,
-    pages: [
-      {
-        zh: '别说话，看我！',
-        url: '../article/article?id=595e6f622f301e00648d5340'
-      }
-    ]
-  }
+        "id": "other",
+        "name": "还有啥",
+        "open": false,
+        "pages": [
+            {
+                "zh": "计划新增功能",
+                "url": "../article/article?id=5963ab7b2f301e0064caa8ae"
+            }
+        ]
+    }
 ];
 
 module.exports = {
