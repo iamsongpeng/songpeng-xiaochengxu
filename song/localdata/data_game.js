@@ -38,7 +38,7 @@ var list2 = [
       imgurl: "../../image/game/football-1.png",
       title: "第1关：新手",
       content: "建立对学习内容的基本认知",
-      url: '../article/article?id=5963a50b0ce463005825687f'
+      url: '../article/article?id=596d03201b69e6006cdfbe9e'
     }
   },
   {
@@ -46,7 +46,7 @@ var list2 = [
       imgurl: "../../image/game/ping-pong.png",
       title: "第2关：高级新手",
       content: "拼出学习内容。学习不是登山，而是拼图。因为对于一个全新的学习内容",
-      url: '../article/article?id=5963a50b0ce463005825687f'
+      url: '../article/article?id=596d0333ac502e006cc01033'
     }
   },
   {
@@ -54,7 +54,7 @@ var list2 = [
       imgurl: "../../image/game/golf-1.png",
       title: "第3关：胜任者",
       content: "成瘾的方法是：有明确的目标，时时得到正反馈，形成正循环。",
-      url: '../article/article?id=5963a50b0ce463005825687f'
+      url: '../article/article?id=596d034e128fe155ce211f47'
     }
   },
   {
@@ -62,7 +62,7 @@ var list2 = [
       imgurl: "../../image/game/gymnast.png",
       title: "第4关：精通者",
       content: "很多杰出的专家，身上都有的模式：各个都是瘾君子，很容易上瘾。",
-      url: '../article/article?id=5963a50b0ce463005825687f'
+      url: '../article/article?id=596d035eac502e006cc01352'
     }
   },
   {
@@ -70,7 +70,7 @@ var list2 = [
       imgurl: "../../image/game/badminton.png",
       title: "第5关：专家",
       content: "让学到的内容得到奖励的方法：讲给别人、教会别人、得到一个演出的机会，获得商业价值等。也就是实现自我价值。",
-      url: '../article/article?id=5963a50b0ce463005825687f'
+      url: '../article/article?id=596d036f61ff4b006c1fcb9f'
     }
   }
 ];

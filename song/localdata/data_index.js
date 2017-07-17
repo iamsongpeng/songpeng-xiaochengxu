@@ -109,16 +109,16 @@ var list = [
     pages: [
       {
         zh: '安全',
-        url: '../article/article?id=1'
+        url: '../article/article?id=596cffef61ff4b006c1fbb27'
       }, {
         zh: '合理饮食',
-        url: '../article/article?id=1'
+        url: '../article/article?id=596cfffaa22b9d006a359d64'
       }, {
         zh: '适当运动',
-        url: '../article/article?id=1'
+        url: '../article/article?id=596d0007a22b9d006a359d8a'
       }, {
         zh: '心理健康',
-        url: '../article/article?id=1'
+        url: '../article/article?id=596d00148d6d8100577d55e2'
       }
     ]
   }, {
@@ -132,16 +132,16 @@ var list = [
       }
     ]
   }, {
-        "id": "other",
-        "name": "还有啥",
-        "open": false,
-        "pages": [
-            {
-                "zh": "计划新增功能",
-                "url": "../article/article?id=5963ab7b2f301e0064caa8ae"
-            }
-        ]
-    }
+    "id": "other",
+    "name": "还有啥",
+    "open": false,
+    "pages": [
+      {
+        "zh": "计划新增功能",
+        "url": "../article/article?id=5963ab7b2f301e0064caa8ae"
+      }
+    ]
+  }
 ];
 
 module.exports = {
