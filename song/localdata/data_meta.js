@@ -20,14 +20,8 @@ var list = [
     open: false,
     pages: [
       {
-        zh: '建立对学习内容的基本认知',
-        url: '../article/article?id=595919580ce4630058aa9a51'
-      }, {
-        zh: '拼出学习内容',
-        url: '../article/article?id=595919580ce4630058aa9a51'
-      }, {
-        zh: '抢在放弃之前建立正循环',
-        url: '../article/article?id=595919580ce4630058aa9a51'
+        zh: '概念：新手',
+        url: '../article/article?id=596ce0c41b69e6006cdee0cf'
       }
     ]
   }, {
@@ -36,14 +30,8 @@ var list = [
     open: false,
     pages: [
       {
-        zh: '获得高频小套路',
-        url: '../article/article?id=595919580ce4630058aa9a51'
-      }, {
-        zh: '加速全盘模仿',
-        url: '../article/article?id=595919580ce4630058aa9a51'
-      }, {
-        zh: '大量重复练习',
-        url: '../article/article?id=595919580ce4630058aa9a51'
+        zh: '概念：高级新手',
+        url: '../article/article?id=596ce164570c35005b473f74'
       }
     ]
   }, {
@@ -52,17 +40,8 @@ var list = [
     open: false,
     pages: [
       {
-        zh: '将学习游戏化',
-        url: '../article/article?id=595919580ce4630058aa9a51'
-      }, {
-        zh: '模仿游戏的设计方法设计自己的学习模式',
-        url: '../article/article?id=595919580ce4630058aa9a51'
-      }, {
-        zh: '不要害怕上瘾',
-        url: '../article/article?id=595919580ce4630058aa9a51'
-      }, {
-        zh: '奖励自己',
-        url: '../article/article?id=595919580ce4630058aa9a51'
+        zh: '概念：胜任者',
+        url: '../article/article?id=596ce1771b69e6006cdee86c'
       }
     ]
   }, {
@@ -71,17 +50,8 @@ var list = [
     open: false,
     pages: [
       {
-        zh: '将学习游戏化',
-        url: '../article/article?id=595919580ce4630058aa9a51'
-      }, {
-        zh: '模仿游戏的设计方法设计自己的学习模式',
-        url: '../article/article?id=595919580ce4630058aa9a51'
-      }, {
-        zh: '不要害怕上瘾',
-        url: '../article/article?id=595919580ce4630058aa9a51'
-      }, {
-        zh: '奖励自己',
-        url: '../article/article?id=595919580ce4630058aa9a51'
+        zh: '概念：精通者',
+        url: '../article/article?id=596ce18d61ff4b006c1ee4a3'
       }
     ]
   }, {
@@ -90,17 +60,8 @@ var list = [
     open: false,
     pages: [
       {
-        zh: '将学习游戏化',
-        url: '../article/article?id=595919580ce4630058aa9a51'
-      }, {
-        zh: '模仿游戏的设计方法设计自己的学习模式',
-        url: '../article/article?id=595919580ce4630058aa9a51'
-      }, {
-        zh: '不要害怕上瘾',
-        url: '../article/article?id=595919580ce4630058aa9a51'
-      }, {
-        zh: '奖励自己',
-        url: '../article/article?id=595919580ce4630058aa9a51'
+        zh: '概念：专家',
+        url: '../article/article?id=596ce1ab1b69e6006cdeec55'
       }
     ]
   }

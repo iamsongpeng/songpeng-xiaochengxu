@@ -49,9 +49,6 @@ var list = [
       }, {
         zh: '为了啥？',
         url: '../article/article?id=595f19745c497d006373432e'
-      }, {
-        zh: '有啥用？',
-        url: '../article/article?id=595f1983570c350058aa31fd'
       }
     ]
   }, {
@@ -83,10 +80,10 @@ var list = [
         url: '../article/article?id=596b9977128fe155ce1362d1'
       }, {
         zh: '好的作品得推荐',
-        url: '../article/article?id=1'
+        url: '../article/article?id=596b9e03ac502e0061586a40'
       }, {
         zh: '好的作品的作者的好玩的故事得说说',
-        url: '../article/article?id=596b9e03ac502e0061586a40'
+        url: '../article/article?id=596cf1eaac502e006cbfa996'
       }
     ]
   }, {
