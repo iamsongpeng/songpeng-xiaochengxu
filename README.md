@@ -2,6 +2,8 @@
 
 使用 微信小程序制作一款学习类软件，类似个人博客，仅供学习参考使用。
 
+![SONGPENG](http://odhng6tv1.bkt.clouddn.com/SONGPENG.png)
+
 ## 开发环境
 
 - [微信web开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)

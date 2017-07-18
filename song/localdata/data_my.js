@@ -1,7 +1,7 @@
 // 因为数据量不大，所以就放在本地
 var item = {
   headimg: "../../image/fisher.png",
-  dictum: "Good artists copy, great artists steal.\n拙匠抄, 巧匠盗!\n乔布斯说过，毕加索也说过"
+  dictum: "Good artists copy, great artists steal.\n拙匠抄, 巧匠盗! 乔布斯说过，毕加索也说过"
 };
 
 var list = [
