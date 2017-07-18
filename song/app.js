@@ -1,5 +1,5 @@
 //app.js
-const AV = require('./utils/av-weapp-min');
+const AV = require('utils/av-weapp-min');
 // LeanCloud 应用的 ID 和 Key
 AV.init({
   appId: 'I0DdHf3RvULpcNo9yHMqOiVj-gzGzoHsz',

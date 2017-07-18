@@ -41,6 +41,22 @@ Page({
   onUnload: function () {
     // 页面关闭
   },
+  onShareAppMessage: function (res) {
+    if (res.from === 'button') {
+      // 来自页面内转发按钮
+      console.log(res.target)
+    }
+    return {
+      title: '宋鹏首页',
+      path: '/pages/index/index',
+      success: function (res) {
+        // 转发成功
+      },
+      fail: function (res) {
+        // 转发失败
+      }
+    }
+  },
   inputTyping: function (e) {
     wx.navigateTo({
       url: '../search/search'
