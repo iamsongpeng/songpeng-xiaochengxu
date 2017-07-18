@@ -15,7 +15,7 @@ Page({
     }
     return {
       title: '我的',
-      path: '/pages/index/index',
+      path: '/pages/my/my',
       success: function (res) {
         // 转发成功
       },

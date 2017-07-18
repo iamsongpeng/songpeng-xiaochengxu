@@ -65,7 +65,7 @@ Page({
     }
     return {
       title: '游戏',
-      path: '/pages/index/index',
+      path: '/pages/game/game',
       success: function (res) {
         // 转发成功
       },

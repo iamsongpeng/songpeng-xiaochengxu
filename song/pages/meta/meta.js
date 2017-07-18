@@ -12,7 +12,7 @@ Page({
     }
     return {
       title: '元学习',
-      path: '/pages/index/index',
+      path: '/pages/meta/meta',
       success: function (res) {
         // 转发成功
       },
