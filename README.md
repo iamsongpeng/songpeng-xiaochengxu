@@ -38,4 +38,4 @@ GitBook 在线阅读[x]
 
 支付宝 | 微信
 --     |-- 
-![支付宝](http://odhng6tv1.bkt.clouddn.com/alipay-260.jpg) | ![微信支付](http://odhng6tv1.bkt.clouddn.com/wechatpay-260.png)
+![支付宝](http://odhng6tv1.bkt.clouddn.com/alipay-260.jpg) | ![微信支付](http://odhng6tv1.bkt.clouddn.com/weixinpay-260.png)
