@@ -8,6 +8,13 @@
 
 - [微信web开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)
 
+## 安装运行这个微信小程序
+
+* 打开开发者工具，添加项目
+    * AppID（可选：无 AppID）
+    * 项目名称：随意填
+    * 需要注意的是项目目录：我的本地目录\songpeng-xiaochengxu\songpeng
+
 ## 目录
 
 说明：文章正在持续更新中......
