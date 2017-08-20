@@ -1,0 +1,5 @@
+/* card.wxss */
+
+.weui-cells_after-title {
+  margin-bottom: 3.6em;
+}

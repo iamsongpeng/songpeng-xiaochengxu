@@ -1,0 +1,5 @@
+<template name="foot">
+  <view class="page__ft" style="padding-top: 10px;">
+     <image src="../../image/icon_footer.png" style="width: 84px; height: 19px;"></image> 
+  </view>
+</template>

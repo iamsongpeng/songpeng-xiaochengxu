@@ -1,0 +1,27 @@
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-search-bar">
+      <view class="weui-search-bar__form">
+        <view class="weui-search-bar__box">
+          <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+          <input type="text" class="weui-search-bar__input" placeholder="搜索 如：学习" value="{{inputVal}}" focus="{{inputShowed}}" auto-focus="true" bindconfirm="inputTyping" />
+          <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+            <icon type="clear" size="14"></icon>
+          </view>
+        </view>
+      </view>
+      <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
+    </view>
+    <block wx:for="{{queryResult}}" wx:for-index="idx" wx:for-item="query">
+      {{query.id}}
+      <view class="weui-cells searchbar-result" wx:if="{{query.title.length > 0}}">
+        <!-- 需要确认：navigator 组件 url 传参是否有大小限制？ -->
+        <navigator url="../article/article?content={{query.content}}" class="weui-cell" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">
+            <view>{{query.title}}</view>
+          </view>
+        </navigator>
+      </view>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,48 @@
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-panel weui-panel_access">
+      <view class="weui-panel">
+        <view class="weui-panel__hd">宋鹏</view>
+        <view class="weui-panel__bd">
+          <view class="weui-media-box weui-media-box_small-appmsg">
+            <view class="weui-cells weui-cells_in-small-appmsg">
+              <block wx:for="{{list}}">
+                <navigator url="{{item.url}}" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                  <view class="weui-cell__hd">
+                    <image src="../../image/my/{{item.id}}.png" style="width: 20px;height: 20px;margin-right: 5px" />
+                  </view>
+                  <view class="weui-cell__bd weui-cell_primary">
+                    <view>{{item.title}}</view>
+                  </view>
+                  <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                </navigator>
+              </block>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-panel">
+      <view class="weui-panel__hd">贡献者</view>
+      <view class="weui-panel__bd">
+        <view class="weui-media-box weui-media-box_small-appmsg">
+          <view class="weui-cells weui-cells_in-small-appmsg">
+            <block wx:for="{{list2}}">
+              <navigator url="{{item.url}}" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__hd">
+                  <image src="../../image/my/{{item.id}}.png" style="width: 20px;height: 20px;margin-right: 5px" />
+                </view>
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view>{{item.title}}</view>
+                </view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+              </navigator>
+            </block>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

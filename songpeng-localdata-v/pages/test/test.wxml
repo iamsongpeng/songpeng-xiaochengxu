@@ -1,0 +1,12 @@
+<!--test.wxml-->
+<!-- <button bindtap="testIndex">按钮Index</button>
+<button bindtap="testSearch">按钮search</button> -->
+<view class="page">
+
+  <input type="text" placeholder="搜索" bindconfirm="inputTyping" />
+
+  <block wx:for="{{queryResult}}" wx:for-index="idx" wx:for-item="query">
+      <view>{{query.title}}</view>
+  </block>
+
+  </view>

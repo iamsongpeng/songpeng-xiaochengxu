@@ -1,0 +1,4 @@
+/* 覆盖 app.wxss 样式 */
+.page__bd {
+  padding-bottom: 10px;
+}

@@ -1,0 +1,9 @@
+<!--article.wxml-->
+<import src="../../wemark/wemark/wemark.wxml" />
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-article">
+      <template is="wemark" data="{{...wemark}}"></template>
+    </view>
+  </view>
+</view>

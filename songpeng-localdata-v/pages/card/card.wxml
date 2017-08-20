@@ -1,0 +1,128 @@
+<!--card.wxml-->
+<!--knowledge.wxml-->
+<import src="../../common/head.wxml" />
+
+<view class="page" xmlns:wx="http://www.w3.org/1999/xhtml">
+
+  <!-- header -->
+  <template is="head" data="{{...item}}" />
+  <view class="page__bd">
+    <view class="weui-cells__title">要学习的一门新知识：</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__bd">
+          <input class="weui-input" placeholder="例如：咖啡" />
+        </view>
+      </view>
+    </view>
+    <view class="weui-cells__title">
+      1. 了解这门知识的概要轮廓（大概了解：是什么？能做什么？为什么会存在？）
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">
+          <textarea class="weui-textarea" placeholder="例如：咖啡是一种水果。咖啡能制作成饮料。咖啡是一种天然的美味的功能性食品，适当饮用对人类身体有益" style="height: 3.3em" />
+          <view class="weui-textarea-counter">0/200</view>
+        </view>
+      </view>
+    </view>
+    <view class="weui-cells__title">
+      2. 哪个群体创造/发展的这个知识，这个群体背后的八卦是什么，看八卦能更好理解牛人们的思维
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">
+          <textarea class="weui-textarea" placeholder="例如：比如毕兹咖啡、嬉皮士和皮特..." style="height: 3.3em" />
+          <view class="weui-textarea-counter">0/200</view>
+        </view>
+      </view>
+    </view>
+    <view class="weui-cells__title">
+      3. 原来是这样一门有趣的知识呀，开始深入学习
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">
+          <textarea class="weui-textarea" placeholder="例如：" style="height: 3.3em" />
+          <view class="weui-textarea-counter">0/200</view>
+        </view>
+      </view>
+    </view>
+    <view class="weui-cells__title">
+      4. 查遍全球关键资料，我可不想听一家之言
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">
+          <textarea class="weui-textarea" placeholder="例如：行走，读书，Google" style="height: 3.3em" />
+          <view class="weui-textarea-counter">0/200</view>
+        </view>
+      </view>
+    </view>
+    <view class="weui-cells__title">
+      5. 了解这门知识的关联知识是什么
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">
+          <textarea class="weui-textarea" placeholder="例如：餐饮行业" style="height: 3.3em" />
+          <view class="weui-textarea-counter">0/200</view>
+        </view>
+      </view>
+    </view>
+    <view class="weui-cells__title">
+      6. 心中了然了，原来这门知识是这样的，还有几个XX问题没解决
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">
+          <textarea class="weui-textarea" placeholder="例如：中国咖啡市场" style="height: 3.3em" />
+          <view class="weui-textarea-counter">0/200</view>
+        </view>
+      </view>
+    </view>
+    <view class="weui-cells__title">
+      7. 运用知识创造出有趣的或以前不存在的东西，如果能解决几个没解决的XX问题最好
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">
+          <textarea class="weui-textarea" placeholder="例如：" style="height: 3.3em" />
+          <view class="weui-textarea-counter">0/200</view>
+        </view>
+      </view>
+    </view>
+    <view class="weui-cells__title">
+      8. 一抖身加入这个知识所在的圈子，成为圈内人
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">
+          <textarea class="weui-textarea" placeholder="例如：" style="height: 3.3em" />
+          <view class="weui-textarea-counter">0/200</view>
+        </view>
+      </view>
+    </view>
+    <view class="weui-cells__title">
+      9. 用跨界思维给这个圈子带来新鲜感，成为圈内认可的人
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">
+          <textarea class="weui-textarea" placeholder="例如：" style="height: 3.3em" />
+          <view class="weui-textarea-counter">0/200</view>
+        </view>
+      </view>
+    </view>
+    <view class="weui-cells__title">
+      真正成功的人，无论在哪个领域，无一不是能发现自己的天赋，并将天赋全然绽放的人。但遗憾的是，我们被“木桶理论”局限了，绝大部份的人都将绝大部份宝贵的时间，用于去弥补自己的短板，木桶理论适合用于组织，不适用于个人成长。去发挥你的天赋吧，别理会那块短板！
+    </view>
+    <view class="weui-cells__title">
+      注释：点击添加后，可在 我的 页面中找到，修改或删除！
+    </view>
+    <!-- 确定提交按钮 -->
+    <view class="weui-btn-area">
+      <button class="weui-btn" type="primary" bindtap="showTopTips">添加</button>
+    </view>
+  </view>
+</view>

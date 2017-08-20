@@ -1,0 +1,6 @@
+<template name="head">
+  <view class="index-hd">
+    <image class="index-logo" src="{{headimg}}"></image>
+    <view class="index-desc"><text>{{dictum}}</text></view>
+  </view>
+</template>

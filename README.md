@@ -18,7 +18,10 @@
         * 可选：无 AppID
         * 如果您有 AppID 并使用，那么打开项目后需要设置：打开开发工具 --> 点击 项目 --> 勾选 开发环境不校验请求域名、TLS 版本以及 HTTPS 证书
     * 项目名称：随意填，比如就用这个项目的名称（songpeng）
-    * 需要注意的是项目目录：您的本地目录\songpeng-xiaochengxu\songpeng
+    * 需要注意的是项目目录：
+        * 您的本地目录\songpeng-xiaochengxu\songpeng-localdata-v
+        * 您的本地目录\songpeng-xiaochengxu\songpeng-leancloud-v
+        * 以上两个版本的区别：第一个是所有文章数据都在本地，第二个是所有文章数据都在Leancloud服务器
 
 
 ## 目录
@@ -36,7 +39,7 @@
     - 3.4-页面设计[x]
     - 3.5-连接数据库[x]
     - 3.6-登录[x]
-    - 3.7-文章[x]
+    - [3.7-文章和wemark的使用](book/3.7-文章和wemark的使用.md)
     - 3.8-简单的搜索文章功能[x]
     - 3.9-测试[x]
     - 3.10-部署[x]

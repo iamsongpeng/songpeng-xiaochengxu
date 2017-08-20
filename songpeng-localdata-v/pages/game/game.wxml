@@ -1,0 +1,44 @@
+<import src="../common/head.wxml" />
+<import src="../common/foot.wxml" />
+
+<view class="page">
+  <template is="head" data="{{...item}}" />
+  <view class="page__bd">
+    <view class="weui-panel weui-panel_access">
+      <view class="weui-panel__hd">游戏说明书</view>
+      <view class="weui-panel__bd">
+        <block wx:for="{{list}}" wx:for-item="item" wx:key="*this">
+          <navigator url="{{item.pages.url}}" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+            <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+              <image class="weui-media-box__thumb" src="{{item.pages.imgurl}}" />
+            </view>
+            <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+              <view class="weui-media-box__title">{{item.pages.title}}</view>
+              <view class="weui-media-box__desc">{{item.pages.content}}</view>
+            </view>
+          </navigator>
+        </block>
+      </view>
+    </view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-panel weui-panel_access">
+      <view class="weui-panel__hd">玩游戏为啥会上瘾呢？</view>
+      <view class="weui-panel__bd">
+        <block wx:for="{{list2}}" wx:for-item="item" wx:key="*this">
+          <navigator url="{{item.pages.url}}" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+            <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+              <image class="weui-media-box__thumb" src="{{item.pages.imgurl}}" />
+            </view>
+            <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+              <view class="weui-media-box__title">{{item.pages.title}}</view>
+              <view class="weui-media-box__desc">{{item.pages.content}}</view>
+            </view>
+          </navigator>
+        </block>
+      </view>
+    </view>
+  </view>
+  <!-- 模版 -->
+  <template is="foot" />
+</view>
