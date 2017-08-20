@@ -1,6 +1,0 @@
-/* article.wxss */
-@import '../../wemark/wemark/wemark.wxss'
-
-page{
-  background-color: #fff;
-}
